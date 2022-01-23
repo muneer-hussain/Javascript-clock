@@ -20,25 +20,8 @@ body {
 
 /* media queries  */
 
-@media (min-width:1200px) {
-    body {
-        overflow: hidden;
-    }
-    #fulldate {
-        font-size: 100px;
-    }
-}
 
 @media (max-width:800px) {
-    body {
-        overflow: hidden;
-    }
-    #fulldate {
-        font-size: 90px;
-    }
-}
-
-@media (max-width:400px) {
     body {
         overflow: hidden;
     }
