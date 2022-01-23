@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+#fulldate {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 100px;
+    font-weight: 800;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* media queries  */
+
+@media (min-width:1200px) {
+    body {
+        overflow: hidden;
+    }
+    #fulldate {
+        font-size: 100px;
+    }
+}
+
+@media (max-width:800px) {
+    body {
+        overflow: hidden;
+    }
+    #fulldate {
+        font-size: 90px;
+    }
+}
+
+@media (max-width:400px) {
+    body {
+        overflow: hidden;
+    }
+    #fulldate {
+        font-size: 45px;
+    }
+}
