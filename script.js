@@ -21,7 +21,8 @@
         session = "PM";
     };
     
-	hours % 12;
+
+     hours = hours % 12;
 	
     document.getElementById("fulldate").innerHTML = `${twoDigits (hours)}  : ${twoDigits (minutes)} : ${twoDigits (seconds)} ${session}`;
     
